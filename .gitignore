@@ -22,3 +22,6 @@ nohup.out
 *.zip
 *.csv
 node_modules/
+build/
+dist/
+ec2_task.egg-info/

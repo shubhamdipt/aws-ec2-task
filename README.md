@@ -20,6 +20,7 @@ The aws_config file should have the following:
     AWS_ACCESS_KEY_ID=
     AWS_SECRET_ACCESS_KEY
     INSTANCE_ID=
+    REGION=
     KEY_PATH=<path to aws key file for ssh>
     USER=<user e.g. ubuntu>
 

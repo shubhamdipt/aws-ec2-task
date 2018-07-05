@@ -9,7 +9,7 @@ with open('requirements.txt') as fp:
 
 DESCRIPTION = "A python module to manage AWS EC2 instances."
 LONG_DESCRIPTION = open('README.md').read()
-VERSION = "0.8"
+VERSION = "0.9"
 
 
 with open("README.md", "r") as fh:
