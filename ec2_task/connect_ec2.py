@@ -15,7 +15,8 @@ class Ec2Instance:
             'ec2',
             # Hard coded strings as credentials, not recommended.
             aws_access_key_id=self.config["aws"]["AWS_ACCESS_KEY_ID"],
-            aws_secret_access_key=self.config["aws"]["AWS_SECRET_ACCESS_KEY"]
+            aws_secret_access_key=self.config["aws"]["AWS_SECRET_ACCESS_KEY"],
+            region_name=self.config["aws"]["REGION"]
         )
         instance_id = self.config["aws"]["INSTANCE_ID"]
         self.instance = ec2.Instance(id=instance_id)  # instance id
